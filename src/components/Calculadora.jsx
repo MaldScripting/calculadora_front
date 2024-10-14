@@ -31,6 +31,10 @@ function Calculadora(){
         <div className="container">
             <h1 id="txtCalculadora">CALCULADORA</h1>
             <form>
+                <p>Hola, mi nombre  es miguel</p>
+                
+                
+
                 <input type="text" className="number" onChange={(e)=>{setNumber1(e.target.value)}}/><br />
                 <input type="text" className="number" onChange={(e)=>{setNumber2(e.target.value)}}/><br />
                 <input type="submit" className="btnEnviar" value="sumar" onClick={handleSubmit}/>
